@@ -1,0 +1,50 @@
+.grid {
+    inline-size: 90%;
+    margin-inline: auto;
+    max-inline-size: 40em;
+  }
+   
+  .header {
+    background-color: #fff;
+    padding-block: 1.5em;
+    position: sticky;
+    will-change: transform;
+    top: 0
+  }
+  
+
+  /* layout/main.css */
+  
+  .main {
+    padding-block: 6em;
+  }
+  
+  /* modules/headline.css */
+  
+  
+  
+  /* modules/navigation.css */
+  
+  .navigation__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5em
+  }
+  
+  .navigation__link {
+    color: inherit;
+    display: block;
+    padding-inline: 1em;
+    text-decoration: none;
+  }
+  
+  .navigation__link:hover{
+    background-color: #9978249d;
+    border-radius: 999em;
+    color: #fff;
+  }
+  
+  /* modules/paragraph.css */
+  
